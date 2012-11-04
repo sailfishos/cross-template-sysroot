@@ -3,7 +3,7 @@
 # Copyright (c) 2010  Jan-Simon Möller (jsmoeller@linuxfoundation.org)
 #
 Name:           cross-@TARGET_CPU@-sysroot
-ExclusiveArch:  %ix86
+ExclusiveArch:  none
 AutoReqProv:    0
 AutoReqProv:    off
 Version:        0.0.1
@@ -12,7 +12,6 @@ License:        GPL v2 or later
 Group:          Development/Tools/Building
 Summary:        This provides the sysroot file structure
 BuildRoot:	%{_tmppath}/%{name}-%{version}-build
-ExclusiveArch:  none
 BuildRequires:  -rpmlint-Factory -rpmlint-mini -post-build-checks tar
 
 %description
