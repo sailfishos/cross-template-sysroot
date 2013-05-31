@@ -1,5 +1,5 @@
 #!/bin/sh
-ARCHS="armv6l armv7l armv7hl armv7tnhl mipsel i486 i586"
+ARCHS="armv6l armv7l armv7hl armv7thl armv7tnhl mipsel i486 i586"
 
 for x in $ARCHS; do
 	cp cross-template-sysroot.spec cross-$x-sysroot.spec
