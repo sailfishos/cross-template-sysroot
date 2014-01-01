@@ -3,7 +3,7 @@
 # Copyright (c) 2010  Jan-Simon Möller (jsmoeller@linuxfoundation.org)
 #
 Name:           cross-armv7thl-sysroot
-ExclusiveArch:  %ix86
+ExclusiveArch:  %ix86 x86_64
 AutoReqProv:    0
 AutoReqProv:    off
 Version:        0.0.1
