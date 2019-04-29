@@ -6,8 +6,9 @@ Name:           cross-@TARGET_CPU@-sysroot
 ExclusiveArch:  none
 AutoReqProv:    0
 AutoReqProv:    off
-Version:        0.0.1
+Version:        1.0+git6
 Release:        1
+Source101:      precheckin.sh
 License:        GPL v2 or later
 Group:          Development/Tools/Building
 Summary:        This provides the sysroot file structure
