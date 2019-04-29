@@ -1,4 +1,19 @@
-* Fri Sep 07 2012 David Greaves <david@dgreaves.com> - 1.1
+* Mon Apr 29 2019 Matti Kosola <matti.kosola@jolla.com> - 1.0+git6
+- Fix packaging. JB#45538
+
+* Sun Feb 16 2014 Oleg Girko <oleg.girko@jolla.com> - 1.0+git5
+- Add aarch64 support.
+
+* Wed Jan 01 2014 Carsten Munk <carsten@merproject.org> - 1.0+git4
+- Allow this to be built on x86_64 too
+
+* Fri May 31 2013 Carsten Munk <carsten@merproject.org> - 1.0+git3
+- Add armv7thl port
+
+* Sun Nov 04 2012 Carsten Munk <carsten@merproject.org> - 1.0+git2
+- Add i486, i586 sysroots and make sure things stay exclusivearch
+
+* Fri Sep 07 2012 David Greaves <david@dgreaves.com> - 1.0+git1
 - Added armv7tnhl architecture
 
 * Tue Feb 07 2012 Carsten Munk <carsten@merproject.org> - 1.0
